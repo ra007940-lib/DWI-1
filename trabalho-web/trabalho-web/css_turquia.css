@@ -1,0 +1,177 @@
+div {
+    background-color: #0b3c5d;
+    height: 50px;
+    padding: 0px;
+    text-align: left;
+}
+
+
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    height:80px;
+    width:100%;
+    background-color:#0b3c5d;
+}
+
+.nav-bar{
+    height:100%;
+    max-width:1100px;
+    width:100%;
+    margin:0 auto;
+    padding:0 15px;
+    display:flex;
+    align-items: center;
+}
+
+.nav-links{
+    display:flex;
+    align-items:center;
+    margin-left:80px; /* empurra o menu um pouco pro meio */
+}
+
+.nav-links li{
+    list-style:none;
+}
+
+.nav-links li a{
+    font-size:17px;
+    padding:10px;
+    margin:15px;
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+header {
+    background-image: url("capadocia.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+}
+
+header h2 {
+    background-color: #e0e0e000;
+    padding: 70px 5px 10px 0px;
+}
+
+header h3 {
+    background-color: #0b3c5d67;
+    color: #dfd9c4;
+    text-align: center;
+    margin: 0px 800px;
+    padding: 30px 25px 40px 25px;
+    border-radius: 100px;
+}
+
+main {
+    background-color: #00000000;
+}
+
+main div {
+        background-color: #0b3c5d28;
+        width: 1720px;
+        margin: 15px 90px; 
+        height: 500px;
+        border-radius: 10px;
+}
+.subdiv p {
+	color: #f5f0e8;
+	border-width: 4px solid #000000;
+    background-color:#0b3c5d;
+    padding: 10px;
+    height: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+main ul {
+    color: #f5f0e800;
+    background-color: #0b3c5d00;
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    gap: 20px; 
+    padding: 10px 20px;
+    margin: 0px 0px;
+
+}
+.subdiv ul p {
+    background-color: #0b3c5d59;
+    color: #ffffff;
+    border: #0b3c5d69 solid 2px;
+    padding: 10px 80px;
+    height: 15px;
+    text-align: center;
+}
+
+div .ab {
+    list-style-type: none;
+    color: white;
+    background-color: #0b3c5d8c;
+    height: 300px;
+    width: 400px;
+     line-height: 1.5;
+}
+div .ac {
+    list-style-type: none;
+    color: white;
+    background-color: #0b3c5d8c;
+    height: 300px;
+    width: 400px;
+    line-height: 1.5;
+}
+div .ad {
+    list-style-type: none;
+    color: white;
+    background-color: #0b3c5d8c;
+    height: 300px;
+    width: 400px;
+    line-height: 1.5;
+}
+div .ae {
+    list-style-type: none;
+    color: white;
+    background-color: #0b3c5d8c;
+    height: 300px;
+    width: 450px;
+    line-height: 1.5;
+}
+
+main li {
+    background-color: #0b3c5d00;
+}
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px 10px;
+    margin-top: 30px;
+}
+
+footer div {
+    background-color: transparent;
+    height: auto;
+    padding: 0;
+    text-align: center;
+}
+
+.rodape {
+    text-align: center;
+}
+
+.rodape h3 {
+    margin-bottom: 10px;
+}
+
+.links {
+    margin-top: 10px;
+}
+
+.links a {
+    color: #00bcd4;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
